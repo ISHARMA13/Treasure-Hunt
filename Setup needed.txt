@@ -1,0 +1,25 @@
+Steps to set up <graphics.h> in Code::Blocks
+
+Step1:    
+https://youtu.be/VEkAj-xVTKQ
+Watch the video from (02:50 to 04:00) to set up tdm-gcc compiler (32-bit)
+https://jmeubank.github.io/tdm-gcc/  <---tdm-gcc compiler
+
+Step2:
+https://drive.google.com/file/d/0B1iuPRY6vIm5cFhkWVdtcTY0bTQ/view?usp=sharing
+Use this link to download the zip file.
+You will find <graphics.h>, libbgi.a, linker_code.txt, and winbgim files in it.
+
+Step3:
+Watch the above mentioned video from (4:20 to 5:50) and do as it says...
+
+Step4:
+-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 <---paste this in linker settings other links
+Also set the path of libbgi.a file in link libraries
+
+For further queries contact any member of our group:
+MEMBERS:
+    1. ISHIKA SHARMA        200010020
+    2. NIRMIT ARORA         200010034
+    3. HRISHIKESH PABLE     200010037
+    4. RAHUL PRAJAPAT       200010043
